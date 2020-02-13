@@ -13,3 +13,7 @@ img{
     width: 12rem;
     height: 6rem;
 }
+/*Encabezado del sitio*/
+header{
+    padding: 1.25em 0;
+}
