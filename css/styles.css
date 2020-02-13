@@ -6,12 +6,20 @@ html{
 *:after{
     box-sizing: inherit;
 }
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size: 1em;
+}
 img{
     max-width: 100%;
 }
 .img-logo{
     width: 12rem;
     height: 6rem;
+    display: block;
+    float: left;
 }
 .container{
     margin: 0 auto;
@@ -22,16 +30,16 @@ header{
 }
 /*Modificando el menu del sitio*/
 .div-bar{
-    background-color: violet;
+    background-color: #9c2277;
 }
 .nav-bar{
     padding: 1.25em 0;
 }
 .nav-bar a{
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
     font-size: 1.375rem;
-    padding: 1.25em;
+    padding: 1em;
     display: block;
     text-align: center;
 
@@ -39,9 +47,15 @@ header{
 .nav-bar a:hover{
     background-color: cornflowerblue;
 }
-
 @media (min-width:768px){
     .nav-bar a{
         display: inline;
     }
+}
+/*Modificando pie de pagina*/
+footer{
+    background-color: #9c2277;
+}
+.copyright{
+    background-color: white;
 }
