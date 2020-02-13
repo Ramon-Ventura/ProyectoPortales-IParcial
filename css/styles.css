@@ -1,0 +1,15 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+img{
+    max-width: 100%;
+}
+.img-logo{
+    width: 12rem;
+    height: 6rem;
+}
