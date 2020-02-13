@@ -13,7 +13,35 @@ img{
     width: 12rem;
     height: 6rem;
 }
+.container{
+    margin: 0 auto;
+}
 /*Encabezado del sitio*/
 header{
     padding: 1.25em 0;
+}
+/*Modificando el menu del sitio*/
+.div-bar{
+    background-color: violet;
+}
+.nav-bar{
+    padding: 1.25em 0;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.375rem;
+    padding: 1.25em;
+    display: block;
+    text-align: center;
+
+}
+.nav-bar a:hover{
+    background-color: cornflowerblue;
+}
+
+@media (min-width:768px){
+    .nav-bar a{
+        display: inline;
+    }
 }
