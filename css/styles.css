@@ -19,18 +19,27 @@ p{
 img{
     max-width: 100%;
 }
-.img-logo{
-    width: 12rem;
-    height: 6rem;
-    display: block;
-    float: left;
-}
 .container{
     margin: 0 auto;
     max-width: 75em;
 }
 .main-container{
     color: whitesmoke;
+}
+
+article img{
+    width: 50em;
+    height: 30em;
+    display: block;
+    margin: 0 auto;
+}
+@media(min-width:768px){
+    article img{
+        float: left;
+        width: 25em;
+        height: 15em;
+        margin: 0 1.25em 0 0;
+    }
 }
 .clearfix::after {
     content: "";
@@ -42,6 +51,22 @@ img{
 header{
     padding: 1.25em 0;
     color: whitesmoke;
+}
+header h1{
+    text-align: center;
+}
+.img-logo{
+    width: 10rem;
+    height: 10rem;
+    margin-left: 5.5%;
+    display: block;
+    float: left;
+}
+@media(min-width:768px){
+    .img-logo{
+        width: 12rem;
+        height: 6rem;
+    }
 }
 /*Modificando el menu del sitio*/
 .div-bar{
@@ -133,3 +158,4 @@ footer{
       margin-left: 5%;
       width: 35%;
     }
+}
